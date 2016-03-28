@@ -1,3 +1,5 @@
-h1 {
-  color: red;
-}
+// Global Imports //
+
+@import "base/index";
+@import "components/index";
+@import "layout/index";

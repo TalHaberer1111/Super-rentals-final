@@ -1,0 +1,32 @@
+ul{
+  padding: 5px;
+  margin-left: 30px;
+  li{
+    padding: 8px;
+    color: green;
+    &:hover{
+      color: blue;
+    }
+    button {
+      background-color: blue;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 5px;
+      margin-left: 10px;
+      box-shadow: 5px 3px 4px dimgray;
+      &:hover {
+        background-color: lighten(blue, 20%);
+        transition: .8s;
+        transform: rotate(12deg) scale(1.2);
+        cursor: pointer;
+      }
+    }
+  }
+}
+.about a {
+  color: red;
+  &:hover {
+    color: blue;
+  }
+}
