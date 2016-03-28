@@ -6,7 +6,7 @@ ul{
     color: green;
     &:hover{
       color: blue;
-  
+
     }
     button {
       background-color: blue;
@@ -29,5 +29,14 @@ ul{
   color: red;
   &:hover {
     color: blue;
+  }
+}
+.announcement {
+  border: 1px solid green;
+  margin: 14px 5px;
+  width: 400px;
+  background-color: oldlace;
+  li {
+    list-style: none;
   }
 }
