@@ -6,6 +6,7 @@ ul{
     color: green;
     &:hover{
       color: blue;
+  
     }
     button {
       background-color: blue;
@@ -14,7 +15,7 @@ ul{
       border-radius: 5px;
       padding: 5px;
       margin-left: 10px;
-      box-shadow: 5px 3px 4px dimgray;
+      box-shadow: 10px 10px 4px dimgray;
       &:hover {
         background-color: lighten(blue, 20%);
         transition: .8s;
