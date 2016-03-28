@@ -40,3 +40,14 @@ ul{
     list-style: none;
   }
 }
+.title {
+  color: black;
+  font-size: 1.2em;
+}
+.spin {
+  color: black;
+  &:hover{
+    transition: 1.8s;
+    transform: rotate(1440deg);
+  }
+}
