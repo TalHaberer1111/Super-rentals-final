@@ -1,3 +1,12 @@
-<h2 id="title">I am application.hbs, I repeat on all the pages</h2>
 
-{{outlet}}
+<header>
+  <h2 id="title">I am application.hbs, I repeat on all the pages</h2>
+</header>
+
+<div class="overLord">
+  {{outlet}}
+</div>
+
+<footer>
+  {{#link-to 'contact'}}Our representatives would love to help!{{/link-to}}
+</footer>
