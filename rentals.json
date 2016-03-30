@@ -30,5 +30,13 @@
     "sales": "Violet's must rent now",
     "weather": "Sunny day",
     "news": "Flowers be bloomin"
+  }],
+
+  "cities": [{
+    "name": "Portland",
+    "country": "USA"
+  }, {
+    "name": "Seattle",
+    "country": "USA"
   }]
 }
