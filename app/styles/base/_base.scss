@@ -17,3 +17,6 @@ h1 {
 .overLord {
   @include outer-container;
 }
+img {
+  height: 20vh;
+}

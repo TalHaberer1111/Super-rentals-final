@@ -5,9 +5,11 @@
 
 <p>Rentals available in {{city.name}}:</p>
 <ul>
-  <li>{{#each city.rentals as |rental|}}{{rental.owner}}'s {{rental.type}} with {{rental.bedrooms}} rooms
-    {{/each}}
-  </li>
+  {{#each city.rentals as |rental|}}
+    <li>{{rental.owner}}'s {{rental.type}} with {{rental.bedrooms}} rooms
+    </li>
+  {{/each}}
+
 </ul>
 
 <button {{action 'delete' city}}>Delete This City</button>

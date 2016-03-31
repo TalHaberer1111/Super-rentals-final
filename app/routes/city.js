@@ -16,8 +16,13 @@ export default Ember.Route.extend({
     },
 
     destroyCity(city) {
-        city.destroyRecord();
-        this.transitionTo('index');
+      var rental_deletions = city.get('rentals').map(function(rental) {
+        return rental.destroyRecord();
+      });
+      Ember.RSVP.all(rental_deletions).then(function() {
+        return city.destroyRecord();
+      });
+      this.transitionTo('index');
       }
     }
 });
